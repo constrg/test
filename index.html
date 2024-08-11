@@ -9,11 +9,11 @@
 </head>
 <body>
     
-    <header class="bg-header pb-5">
-        <nav class="navbar navbar-expand-lg">
+    <header class="bg-header pb-5" style="background-image: url('./assets/images/hero-bg.jpeg'); background-position: center; background-size: cover; min-height: 100vh;">
+        <nav class="navbar navbar-expand-lg py-4">
             <div class="container">
-              <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo.png" class="logo" alt="logo"></a>
-              <button class="navbar-toggler btn-orange" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo.png" width="150px" class="logo" alt="logo"></a>
+              <button class="navbar-toggler btn-orange" style="outline: none; box-shadow: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -35,15 +35,15 @@
 
           <div class="hero mt-5">
             <div class="container">
-                <div class="hero-text">
+                <div class="hero-text w-100" style="max-width: 500px;">
                     <h1 class="display-3 text-white">
                         Travel the world, <br>
                         <span class="text-orange">Feel at home</span>
                     </h1>
                     <p class="fs-3 text-white">Find Your Home away from Home</p>
-                    <div class="search-where w-100 d-flex bg-white rounded p-1 mt-4">
+                    <div class="w-100 d-flex justify-content-between bg-white rounded p-1 mt-4">
                         <input class="p-3 w-100 rounded border-0" type="text" placeholder="Where are you going?">
-                        <button class="btn btn-primary text-white btn-orange border-0 w-100 search-btn d-flex align-items-center gap-2" type="button"><img width="15px" src="./assets/icons/search.png" alt="">Search Now</button>
+                        <button class="btn btn-primary text-white btn-orange border-0 w-100 search-btn d-flex align-items-center justify-content-center gap-2 text-center" style="max-width: 150px;" type="button"><img width="15px" src="./assets/icons/search.png" alt="">Search Now</button>
                     </div>
                 </div>
             </div>
@@ -54,8 +54,8 @@
     <section class="featured-in mt-5">
       <div class="container">
         <h1 class="display-6 text-center">Featured in</h1>
-        <div class="featured-wrapper">
-          <div class="featured-list mt-3">
+        <div class="featured-wrapper position-relative overflow-hidden">
+          <div class="featured-list mt-3 d-flex align-items-center gap-5">
             <img class="featured-img" src="./assets/images/Conde_Nast_Traveler_.png" alt="">
             <img class="featured-img" src="./assets/images/Brit-Co-correct2.png" alt="">
             <img class="featured-img" src="./assets/images/InsideHook-correct.png" alt="">
@@ -76,13 +76,13 @@
         <div class="container">
             <div class="row ustify-content-between align-items-center">
                 <div class="col-12 col-lg-6 mb-3">
-                    <img class="elevate-img" src="./assets/images/image1.png" alt="">
+                    <img class="elevate-img w-100" src="./assets/images/image1.png" alt="">
                 </div>
                 <div class="col-12 col-lg-6">
                     <h1 class="display-5"><span class="text-orange">Elevate</span> your travel experiences</h1>
                     <p class="mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quam quos vel ab voluptatibus quia vitae, ullam tempore! Velit atque consectetur laboriosam beatae harum officia placeat similique fuga expedita necessitatibus maiores reprehenderit incidunt, nam, soluta voluptatibus omnis suscipit, labore unde corporis eos deleniti aliquam ea exercitationem. Deleniti ex iure nobis?</p>
                     
-                <button class="btn btn-primary text-white btn-orange border-0 mt-3 learn-more-btn" type="button">Learn More</button>
+                <button class="btn btn-primary text-white btn-orange border-0 mt-3 learn-more-btn px-5 py-3" type="button">Learn More</button>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@
               <h1 class="display-5">Discover <span class="text-orange">our homes</span></h1>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia fuga doloribus recusandae blanditiis maiores ex.</p>
             </div>
-            <button class="btn btn-primary text-white btn-orange border-0 discover-more-btn" type="button">Discover More</button>
+            <button class="btn btn-primary text-white btn-orange border-0 discover-more-btn px-5 py-3" type="button">Discover More</button>
           </div>
           <div class="cards-list gap-3 d-flex mt-5 g-5 overflow-auto">
             <div class="col-12 col-lg-4">
@@ -150,14 +150,14 @@
         </div>
       </section>
 
-      <section class="travel-assets mt-5">
+      <section class="travel-assets mt-5 w-100" style="background-image: linear-gradient(to right, rgba(0,0,0,0.3),rgba(0,0,0,0.9)),url('./assets/images/pexels-marianne-2383.png');">
         <div class="container">
             <div class="travel-assets-bg rounded p-5 d-flex align-items-center justify-content-end">
-                    <div class="travel-text">
+                    <div class="travel-text" style="width: 450px;">
                         <h1 class="display-5 text-white">Turn your home into <span class="text-orange">a travel assets</span></h1>
                         <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque amet autem eligendi alias blanditiis, labore doloribus. Perspiciatis dignissimos magnam quas ducimus sint, laudantium culpa minus repudiandae, necessitatibus illo voluptatem neque ipsam iste.</p>
                         <div class="d-flex align-items-center gap-4 mt-4">
-                            <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn" type="button">Become a Member</button>
+                            <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn px-5 py-3" type="button">Become a Member</button>
                             <a class="nav-link text-white" href="#">How it works</a>
                         </div>
                     </div>
@@ -205,14 +205,14 @@
                     </div>
                 </div>
             </div>
-            <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">All destinations</button>
+            <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-5 py-3" type="button">All destinations</button>
         </div>
       </section>
 
       <section class="how-does-it-work mt-5" id="how-does-it-work">
         <div class="container d-flex flex-column flex-md-row justify-content-center ">
-            <img class="how-does-it-work-img w-100 rounded" src="./assets/images/pexels-max-vakhtbovy.png" alt="">
-            <div class="how-does-it-work-text text-white p-5 rounded">
+            <img class="how-does-it-work-img w-100 rounded" style="max-width: 600px;"  src="./assets/images/pexels-max-vakhtbovy.png" alt="">
+            <div class="how-does-it-work-text text-white p-5 bg-dark rounded">
                 <h1 class="display-5">How does it <span class="text-orange">works</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quod dignissimos quas numquam illo a et laboriosam cumque nemo? Eius.</p>
                 <div class="steps d-flex flex-column gap-2 mt-5">
@@ -225,18 +225,18 @@
                     <div class="step text-black bg-white rounded p-3">
                         <p class="fw-medium d-flex align-items-center gap-3"><img width="30px" src="./assets/icons/check-circle.png" alt=""> Step 3: Become a Member</p>
                     </div>
-                    <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">Create listing today</button>
+                    <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-5 py-3" type="button">Create listing today</button>
                 </div>
             </div>
         </div>
       </section>
 
-      <section class="faqs mt-5" id="faqs">
+      <section class="faqs mt-5 w-100 mx-auto" id="faqs">
         <div class="container text-center">
             <h1 class="display-5">Frequently Asked <span class="text-orange">Questions</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos corporis qui molestiae, voluptates dolorum velit, obcaecati consequatur ad et earum nisi sunt. Unde amet commodi, dolor hic totam maiores esse.</p>
-            <div class="accordion accordion-flush mt-5 d-flex flex-column gap-3" id="faqs-parent">
-                <div class="accordion-item rounded">
+            <div class="accordion accordion-flush mt-5 d-flex flex-column gap-3 w-100" id="faqs-parent">
+                <div class="accordion-item rounded" style="box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);">
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faqs-1" aria-expanded="false" aria-controls="faqs-1">
                       What is house swapping?
@@ -247,7 +247,7 @@
                   </div>
                 </div>
                 
-                <div class="accordion-item rounded">
+                <div class="accordion-item rounded" style="box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faqs-2" aria-expanded="false" aria-controls="faqs-2">
                         What is house swapping?
@@ -258,7 +258,7 @@
                     </div>
                   </div>
 
-                  <div class="accordion-item rounded">
+                  <div class="accordion-item rounded" style="box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faqs-3" aria-expanded="false" aria-controls="faqs-3">
                         What is house swapping?
@@ -269,7 +269,7 @@
                     </div>
                   </div>
 
-                  <div class="accordion-item rounded">
+                  <div class="accordion-item rounded" style="box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faqs-4" aria-expanded="false" aria-controls="faqs-4">
                         What is house swapping?
@@ -280,7 +280,7 @@
                     </div>
                   </div>
 
-                  <div class="accordion-item rounded">
+                  <div class="accordion-item rounded" style="box-shadow: 0 0 3px 3px rgba(0,0,0,0.1);">
                     <h2 class="accordion-header">
                       <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#faqs-5" aria-expanded="false" aria-controls="faqs-5">
                         What is house swapping?
@@ -291,7 +291,7 @@
                     </div>
                   </div>
               </div>
-              <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">Read All FAQS</button>
+              <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-5 py-3" type="button">Read All FAQS</button>
         </div>
       </section>
 
@@ -301,7 +301,7 @@
                 <div class="col-12 col-lg-6">
                     <h1 class="display-5"><span class="text-orange">More than a</span> Home Exchange</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae facilis temporibus officiis voluptatem veniam, id harum omnis totam quibusdam numquam sapiente quasi vero. Ipsum accusamus voluptate quod, accusantium velit alias qui, omnis, minima nesciunt sequi blanditiis sunt. Non nisi maiores optio, aliquam libero, sunt animi corrupti earum atque, quos blanditiis.</p>
-                    <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">LOG IN - SIGN UP</button>
+                    <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-5 py-3" type="button">LOG IN - SIGN UP</button>
                 </div>
                 <div class="col-12 col-lg-6">
                     <img class="w-100" src="./assets/images/pexels-pixabay-26240.png" alt="">
@@ -375,7 +375,7 @@
                 <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">READ MORE</button>
+                  <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-3 py-2" type="button">READ MORE</button>
                 </div>
               </div>
             </div>
@@ -386,7 +386,7 @@
                 <div class="card-img-overlay d-flex flex-column justify-content-end align-items-start">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">READ MORE</button>
+                  <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-3 py-2" type="button">READ MORE</button>
                 </div>
               </div>
             </div>
@@ -395,22 +395,24 @@
         </div>
       </section>
 
-      <section class="subscribe mt-5 py-5">
-        <div class="container text-center">
+      <section class="subscribe mt-5 py-5" style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('./assets/images/pexels-vlad-bagacian.png'); 
+      background-size: cover;
+      background-position: center;">
+        <div class="container text-center w-100" style="max-width: 800px;">
           <div class="text-white">
             <h1 class="display-5"><span class="text-orange">Subscribe</span> to our mailing list</h1>
             <p>Sign up for email updates with travel recommendations and Private Deals</p>
           </div>
-          <div class="search-where w-100 d-flex bg-white rounded p-1 mt-4 mx-auto">
+          <div class="w-100 d-flex justify-content-between bg-white rounded p-1 mt-4">
             <input class="p-3 w-100 rounded border-0" type="text" placeholder="Email address">
-            <button class="btn btn-primary text-white btn-orange border-0 w-100 search-btn" type="button">Subscribe</button>
-          </div>
+            <button class="btn btn-primary text-white btn-orange border-0 w-100 search-btn d-flex align-items-center justify-content-center gap-2 text-center" style="max-width: 150px;" type="button">Subscribe</button>
+        </div>
         </div>
       </section>
 
       <footer class="footer py-5">
         <div class="container">
-          <div class="row g-4"> 
+          <div class="row g-4 text-center text-md-start"> 
             <div class="col-12 col-lg-3">
               <img src="./assets/images/logo.png" alt="">
               <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quisquam quo, odit neque quis quas magni architecto quia asperiores nisi?</p>
@@ -426,17 +428,17 @@
             </div>
             <div class="col-12 col-lg-3">
               <h2>Follow Us</h2>
-              <div class="d-flex gap-2 align-items-center">
-                <img width="40px" src="./assets/icons/fb.png" alt="">
-                <img width="40px" src="./assets/icons/twitter.png" alt="">
-                <img width="40px" src="./assets/icons/linkedin.png" alt="">
-                <img width="40px" src="./assets/icons/email.png" alt="">
+              <div class="d-flex gap-2 align-items-center justify-content-center justify-content-md-start">
+                <a href="#"><img width="40px" src="./assets/icons/fb.png" alt=""></a>
+                <a href="#"><img width="40px" src="./assets/icons/twitter.png" alt=""></a>
+                <a href="#"><img width="40px" src="./assets/icons/linkedin.png" alt=""></a>
+                <a href="#"><img width="40px" src="./assets/icons/email.png" alt=""></a>
               </div>
             </div>
             <div class="col-12 col-lg-3">
               <h2>Get Started</h2>
-              <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3" type="button">Become a Member</button>
-              <button class="btn btn-primary text-white btn-dark border-0 learn-more-btn mt-3" type="button">Create your listing</button>
+              <button class="btn btn-primary text-white btn-orange border-0 learn-more-btn mt-3 px-5 py-3" type="button">Become a Member</button>
+              <button class="btn btn-primary text-white btn-dark border-0 learn-more-btn mt-3 px-5 py-3" type="button">Create your listing</button>
             </div>
           </div>
         </div>
@@ -446,7 +448,7 @@
         <div class="container">
           <div class="d-flex flex-column flex-md-row align-items-center justify-content-between text-white">
             <p>&copy; Tailwind Trades 2024 all rights reserved.</p>
-            <p>Terms and Conditions | Refund Policy</p>
+            <p><a href="#" class="text-white text-decoration-none">Terms and Conditions</a> | <a href="#" class="text-white text-decoration-none">Refund Policy</a></p>
           </div>
         </div>
       </div>      
